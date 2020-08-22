@@ -50,7 +50,7 @@ p {
 
 .btn,
 a.btn {
-    background: #1E2A58;
+    background: #4a5479;
     color: #fff;
     padding: 8px 15px;
     -webkit-border-radius: 2px;
@@ -72,7 +72,7 @@ a.btn {
 .btn:hover,
 a.btn:hover {
     color: #fff;
-    background: #00a5bb;
+    background: #a4b1e1;
 }
 
 #topcontrol {
@@ -80,7 +80,7 @@ a.btn:hover {
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
-    background: #008fa1;
+    background: #a4b1e1;
     color: #fff;
     text-align: center;
     display: inline-block;
@@ -101,7 +101,7 @@ a.btn:hover {
 }
 
 #topcontrol:hover {
-    background: #007888;
+    background: #5D79E2;
     color: #fff;
 }
 
@@ -113,7 +113,7 @@ a.btn:hover {
 }
 
 .header {
-    background: #00BCD4;
+    background: #A4B1E1;
     color: #fff;
 }
 
@@ -197,7 +197,7 @@ a.btn:hover {
 }
 
 .header .intro {
-    background: #00a5bb;
+    background: #A4B1E1;
     padding-top: 90px;
     padding-bottom: 30px;
     position: relative;
@@ -216,7 +216,7 @@ a.btn:hover {
 }
 
 .page-nav-wrapper {
-    background: #007888;
+    background: #5D79E2;
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
@@ -476,86 +476,6 @@ a.btn:hover {
     position: absolute;
     left: 0;
     top: 0;
-}
-
-.testimonials-section .testimonials-carousel {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.testimonials-section .item {
-    padding-left: 60px;
-    margin-bottom: 45px;
-}
-
-.testimonials-section .quote {
-    border-left: none;
-    padding: 0;
-    font-size: 22px;
-    color: #24292e;
-    font-weight: 300;
-    position: relative;
-}
-
-.testimonials-section .source .name {
-    font-size: 16px;
-}
-
-.testimonials-section .source .position {
-    color: #8a8a8a;
-}
-
-.testimonials-section .fa-quote-left {
-    position: absolute;
-    left: -60px;
-    top: 0;
-    width: 36px;
-    height: 36px;
-    display: inline-block;
-    background: #00BCD4;
-    color: #fff;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 16px;
-}
-
-.testimonials-section .carousel-indicators {
-    bottom: 0;
-    margin-bottom: 0;
-}
-
-.testimonials-section .carousel-indicators li {
-    background-color: #bdbdbd;
-    border: none;
-    width: 10px;
-    height: 10px;
-    margin: 0;
-    margin-right: 8px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    cursor: pointer;
-}
-
-.testimonials-section .carousel-indicators li.active {
-    background-color: #00BCD4;
-    width: 10px;
-    height: 10px;
-    margin: 0;
-    margin-right: 8px;
 }
 
 /**
@@ -1025,33 +945,6 @@ Contact section start here
 .config-panel .close .fa {
     color: #fff;
 }
-
-/************ Books section ******/
-.book-section .item {
-    margin-bottom: 45px;
-}
-
-.book-section .item-inner {
-    padding: 0 30px;
-}
-
-.book-section .category {
-    font-size: 18px;
-    color: #00BCD4;
-    margin-top: 0;
-    margin-bottom: 16px;
-}
-
-.book-section .book-category {
-    font-weight: bolder;
-    margin-bottom: 3px;
-    font-size: 16px;
-}
-
-.book-section .b {
-    color: #24292e;
-}
-
 /************ Education section ******/
 .education-section .item {
     margin-bottom: 45px;
