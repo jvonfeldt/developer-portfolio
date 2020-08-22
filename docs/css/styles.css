@@ -28,7 +28,7 @@ h6 {
 }
 
 a {
-    color: #00BCD4;
+    color: #818EBD;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -37,7 +37,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #007888;
+    color: #324693;
 }
 
 a:focus {
@@ -50,7 +50,7 @@ p {
 
 .btn,
 a.btn {
-    background: #008fa1;
+    background: #1E2A58;
     color: #fff;
     padding: 8px 15px;
     -webkit-border-radius: 2px;
@@ -176,8 +176,8 @@ a.btn:hover {
 
 .header .profile-image {
     position: absolute;
-    width: 160px;
-    height: 160px;
+    width: 320px;
+    height: 320px;
     top: -80px;
     margin-left: -80px;
     left: 50%;
