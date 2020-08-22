@@ -958,3 +958,11 @@ Contact section start here
 .education-section .desc {
     color: #24292e;
 }
+
+portfolio.category {
+    font-size: 18px;
+    color: #00BCD4;
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: center
+}
