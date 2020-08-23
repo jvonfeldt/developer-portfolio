@@ -28,7 +28,7 @@ h6 {
 }
 
 a {
-    color: #818EBD;
+    color: #4a4579;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -37,7 +37,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #324693;
+    color: #4a4579;
 }
 
 a:focus {
@@ -72,7 +72,7 @@ a.btn {
 .btn:hover,
 a.btn:hover {
     color: #fff;
-    background: #a4b1e1;
+    background: rgba(164, 177, 225, 0.77);
 }
 
 #topcontrol {
@@ -176,16 +176,17 @@ a.btn:hover {
 
 .header .profile-image {
     position: absolute;
-    width: 160px;
-    height: 160px;
-    top: -80px;
-    margin-left: -80px;
+    width: 220px;
+    height: 220px;
+    top: -120px;
+    margin-left: -120px;
     left: 50%;
 }
 
 .header .name {
     font-size: 48px;
     margin-bottom: 15px;
+    margin-top: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -197,7 +198,7 @@ a.btn:hover {
 }
 
 .header .intro {
-    background: #A4B1E1;
+    background: rgba(34, 44, 83, 0.52);
     padding-top: 90px;
     padding-bottom: 30px;
     position: relative;
@@ -216,7 +217,7 @@ a.btn:hover {
 }
 
 .page-nav-wrapper {
-    background: #5D79E2;
+    background: rgba(34, 44, 83, 0.63);
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
@@ -233,7 +234,7 @@ a.btn:hover {
     left: 0;
     width: 100%;
     z-index: 100;
-    background: #00BCD4;
+    background: #4a5479;
 }
 
 .page-nav-wrapper a {
@@ -316,7 +317,7 @@ a.btn:hover {
 }
 
 .timeline {
-    border-left: 3px solid #00BCD4;
+    border-left: 3px solid #4a5479;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     position: relative;
@@ -350,7 +351,7 @@ a.btn:hover {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     background: #fff;
-    border: 3px solid #00BCD4;
+    border: 3px solid #4a4579;
 }
 
 .timeline .item:after {
@@ -369,7 +370,7 @@ a.btn:hover {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #00BCD4;
+    background: #4a4579;
     z-index: 10;
 }
 
@@ -403,7 +404,7 @@ a.btn:hover {
 
 .timeline .job-meta .title {
     font-size: 18px;
-    color: #00BCD4;
+    color: rgb(226, 160, 84);
 }
 
 .timeline .job-meta .time {
@@ -574,7 +575,7 @@ Contact section start here
 }
 
 .contact-section .service-list .fa {
-    color: #00BCD4;
+    color: rgb(226, 160, 84);
 }
 
 .contact-section .social {
@@ -737,6 +738,8 @@ Contact section start here
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 /* X-Large devices (large desktops, 1400px and up) */
+
+
 /* ======= Configure Style (Remove in production) ======= */
 .config-trigger {
     position: absolute;
@@ -919,6 +922,9 @@ Contact section start here
 .config-panel .close .fa {
     color: #fff;
 }
+
+
+
 /************ Education section ******/
 .education-section .item {
     margin-bottom: 45px;
@@ -937,7 +943,7 @@ Contact section start here
 
 .education-section .title {
     font-size: 18px;
-    color: #00BCD4;
+    color: rgb(226, 160, 84);
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
