@@ -194,7 +194,7 @@ a.btn:hover {
     font-size: 28px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .header .intro {
