@@ -103,7 +103,34 @@
 
 <section id="portfolio-section" class="portfolio-section section"><!--//startnotebook-->
     
+    <!--##VERY IMPORTANT: You must do the following steps to the HTML First!
+    ##For this block you must move the padding to 0px!!!!
+    
+    
+    <style type="text/css">
+        /* Overrides of notebook CSS for static HTML export */
+        body {
+    overflow: visible;
+    padding: 8px;
+    
+            
+    That excerpt will be in Jupyter notebook html header
+
+    That will remove padding around whole page.
+
+    NExt you need to remove the extra container.
+
+    Remove first 2 lines under body
+
+  <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+    Then past the reast of the notebook in!
+            
     <!--//paste notebook here-->
+    
+    
+    
 
     </section><!--//end notebook-->
 
